@@ -1,6 +1,6 @@
-const accountId = 133461;
-let accountEmail = "sidit@gmail.com";
-var password = "13641";
+const accountId = 133461; // It is non changeable , 
+let accountEmail = "sidit@gmail.com"; // It is a changeable. It is replaced the Var keyword in javaScript  
+var password = "13641"; // It is also a changeable . It is replaced by Let Keyword in the javaScript
 
 // var accountstate;  in this line developer declears the not assign it 
 // so the javascipt show a undefined
@@ -13,5 +13,4 @@ var password = "13641";
 
 accountEmail = "ghd@gmail.com";
 password = "554545";
-
-console.table([accountId, accountEmail, password , accountstate]);
+console.table([accountId, accountEmail, password]);
