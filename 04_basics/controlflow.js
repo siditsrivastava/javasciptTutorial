@@ -57,21 +57,20 @@ switch (month) {
     break;
 }
 
-
 // TERNIARY OPERATOR
 
 // CONDITION ? TRUE : FALSE
 
 const i = 5;
 
-i==5? console.log("true") : console.log("False");
+i == 5 ? console.log("true") : console.log("False");
 
 // nullish coalsecing operator
 
 //  a = 5 ?? 40
 
-let va1 ;
-va1 = 10 ?? 50
+let va1;
+va1 = 10 ?? 50;
 console.log(va1);
 
 // it is only made for the null and undefined Operator.

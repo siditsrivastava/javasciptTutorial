@@ -16,7 +16,7 @@ const all = name.concat(sunname);
 
 const arr = [1,2,3,[4,5,6],7,8,9,[10 , 11 , 12 ,[50 , 80]]];
 
-const newarr = arr.flat(Infinity);
+const newarr = arr.lat(Infinity);
 
 // console.log(newarr);
 
