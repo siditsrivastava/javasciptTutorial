@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div>
+      <ul id="na">
+        <li >sidit</li>
+      </ul>
+    </div>
+  </body>
+  <script>
+        //  create a element in the javaScript
+    function addTxt(names) {
+      // document.getElementsById('#name').innerHTML="hello";\
+      const createEle = document.createElement("li");
+      createEle.innerHTML = `${names}`;
+      document.querySelector("#na").appendChild(createEle);
+    }
+    addTxt("sidit srivastava");
+
+    function newFun(names) {
+      const add = document.createElement("li");
+      add.appendChild(document.createTextNode(names));
+      document.querySelector("#na").appendChild(add);
+    }
+    newFun("golu");
+    // EDIT ELEMENNT 
+
+    const changebale = document.querySelector('li:nth-child(2)')
+    changebale.innerHTML ="Amisha"
+
+    // another One
+
+     const newadd = document.createElement('li')
+     newadd.textContent = "ami"
+     changebale.replaceWith(newadd)
+
+     const repalce = document.querySelector('li:nth-child(1)')
+     repalce.innerHTML="golu"
+
+    //  REMONE 
+    const del = document.querySelector("li:last-child");
+    del.remove();
+
+  </script>
 </html>
